@@ -1,37 +1,26 @@
-# ccv10
+# CCV10's CVFundamentals
+  - computer vision fundamentals 
+  - 以下文件都可以在https://gitee.com/mingminglaoshi/ccv10     找到，若找不到联系，可以明明老师协助。微信13271929138
+  - week7 
+```
+CV核心基础WEEK7 :  基本图像处理
+https://gitee.com/mingminglaoshi/ccv10
+Pipeline:
+0.职业规划
+1.Computer Vision 的由来
+2.计算机如何看到图像
+3.计算机处理图像的方式，方法
 
-#### 介绍
-资料同步
+作业：
+   1 用滤波操作给图片去除噪声，
+     选做：将自己的logo水印打到经过滤波后的照片上。
+   目的：感受滤波操作的作用，用数字上的滤波操作模拟老照片真实镜头的滤波功能。
+   参考步骤：
+   1 拿到老师给定的图片：week7_211017/week7_homework.png。
+   2 对图片进行滤波操作。参考week7_211017/week7_class_code_after_class.py
+   3 修改滤波核的数值和滤波核的大小，调整出最好的效果。
+   4 制作自己的logo水印的照片
+   5 将水印添加到图片上。参考week7_210812/week7_class_code_after_class.py
+   6 图像围绕任意点进行刚体旋转的公式推导：https://zhuanlan.zhihu.com/p/399377684
+```
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
