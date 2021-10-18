@@ -20,7 +20,7 @@ Pipeline:
    2 对图片进行滤波操作。参考week7_211017/week7_class_code_after_class.py
    3 修改滤波核的数值和滤波核的大小，调整出最好的效果。
    4 制作自己的logo水印的照片
-   5 将水印添加到图片上。参考week7_210812/week7_class_code_after_class.py
+   5 将水印添加到图片上。参考week7_211017/week7_class_code_after_class.py
    6 图像围绕任意点进行刚体旋转的公式推导：https://zhuanlan.zhihu.com/p/399377684
 ```
 
