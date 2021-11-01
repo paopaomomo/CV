@@ -1,10 +1,10 @@
 # CCV10's CVFundamentals
   - computer vision fundamentals 
-  - 以下文件都可以在https://gitee.com/mingminglaoshi/ccv10     找到，若找不到联系，可以明明老师协助。微信13271929138
+  - 以下文件都可以在https://gitee.com/anjiang2020_admin/ccv10     找到，若找不到联系，可以明明老师协助。微信13271929138
   - week7 
 ```
 CV核心基础WEEK7 :  基本图像处理
-https://gitee.com/mingminglaoshi/ccv10
+https://gitee.com/anjiang2020_admin/ccv10
 Pipeline:
 0.职业规划
 1.Computer Vision 的由来
