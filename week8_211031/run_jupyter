@@ -1,0 +1,2 @@
+conda activate python3.6.7
+LANG=zn jupyter notebook

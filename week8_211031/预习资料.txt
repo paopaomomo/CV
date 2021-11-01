@@ -1,0 +1,4 @@
+# 图像描述子
+HOG特征：https://zhuanlan.zhihu.com/p/40960756
+LBP特征: https://www.jianshu.com/p/8d96ceb45f74
+Haar-like特征：https://zhuanlan.zhihu.com/p/38056144
