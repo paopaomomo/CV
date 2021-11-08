@@ -66,6 +66,7 @@ Pipeline:
  - week9 
 ```
 CV核心基础WEEK9 ：依赖硬件算力提升模型性能：cuda编程
+https://gitee.com/anjiang2020_admin/ccv10
 Pipeline:
 1  week8作业 
 2  计算机视觉的常用模型
