@@ -63,3 +63,37 @@ Pipeline:
    8. 课堂用图：dog.png
    9. 关键点算法：https://zhuanlan.zhihu.com/p/147390611
 ```
+
+CV核心基础WEEK9 ：依赖硬件算力提升模型性能：cuda编程
+Pipeline:
+1  week8作业 
+2  计算机视觉的常用模型
+3  CNN统一了提特征与决策
+4  GPU Schema
+5  认识pycuda,并用pycuda完成矩阵乘法
+
+作业：使用pycuda完成LeNet模型的以下模块：
+        1. [必做]conv
+        2. pooling
+        3. relu
+        4. linear
+        5. backward
+
+要求：
+   1 要求用pycuda库利用gpu的多线程技术，完成卷积层的计算。
+   2 可以用自己定义的kernel函数,也可以用pycuda提供的核函数
+   3 自己定义核函数的时候，可以参考week9_pycuda_example_6.py来实现
+其它参考材料：
+    1. week8参考作业：week9_20210313/week8作业答案课堂讲解.ipynb
+    2. 卷积层用nn.conv2d来实现，相关参考代码：week6/conv.py
+    3. 卷积的声明，更改默认weight，默认bias,对图片进行卷积，示例子代码在：week9_20210313/conv.py 的14行,27行,29行,55行
+    4. 图像滤波器：filter.py
+    5. pycuda-master: pycuda源码
+    6. week9_pe_5.py : 自定义核函数，打印出“hello world"
+    7. week9_pe_4.py : 自定义核函数，掌握threadIdx,blockIdx等内置变量的意义。
+    8. week9_pycuda_example_2.py ： 自定义加法核函数
+    9. week9_pycuda_example_3.py :  自定义乘法核函数
+    10. week9_pycuda_example_6.py :  自定义矩阵乘法核函数
+    11. week9_pycude_example_1.py :  利用gpuarray来调用gpu进行计算。
+    12. week9_cvf.py : pycuda 自带api使用,gpuarray,以及自带核函数的使用
+```
