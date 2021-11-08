@@ -63,6 +63,7 @@ Pipeline:
    8. 课堂用图：dog.png
    9. 关键点算法：https://zhuanlan.zhihu.com/p/147390611
 ```
+ - week9 
 ```
 CV核心基础WEEK9 ：依赖硬件算力提升模型性能：cuda编程
 Pipeline:
