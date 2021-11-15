@@ -99,3 +99,34 @@ Pipeline:
     11. week9_pycude_example_1.py :  利用gpuarray来调用gpu进行计算。
     12. week9_cvf.py : pycuda 自带api使用,gpuarray,以及自带核函数的使用
 ```
+- week10 [图像分类的决策层设计总结与实战]
+```
+https://gitee.com/anjiang2020_admin/ccv10
+CV核心基础WEEK10：图像分类决策层的设计总结与实践
+Pipeline:
+1  CNN提特征层的设计：搭积木 
+2  看看经典模型是如何搭积木的
+3  决策功能的实现：output层的设计
+4  生成output需要的groundtruth
+5  经典模型Resnet/mobilenet
+
+作业：自己完成一个分类项目：数据采集，标注，设计网络（可从头开始，也可fineturn).
+       1. [可选]每人提交10张矿泉水瓶\可乐瓶的图片到邮箱：471106585qq.com
+            ![输入图片说明](https://images.gitee.com/uploads/images/2020/0715/135022_28d7b639_7401441.png "屏幕截图.png")
+             ![输入图片说明](https://images.gitee.com/uploads/images/2020/0715/135042_997cd525_7401441.png "屏幕截图.png")
+       2. 这次分类的图片由老师标注。统一传到modelarts标注平台标注。[检测类的项目时，老师会将图片统一传到modelarts标注平台，交给大家标注]
+       3. 自行完成分类网络的决策层。体特征层可从零设计，也可使用其他网络。建议resnet18,在week10_210902/resnet.py中有其实现，可参考
+       4. 此次数据集明名为week10_dataset,永远开放的学习型数据集,数据的data_loader也在最近几天提供在week10_dataset的gitee里:https://gitee.com/anjiang2020_admin/week10-dataset
+
+要求：
+   1 提交作业时，需要提交代码，训练的train acc
+   2 [可选] 提交训练超参数（学习率策略，优化方法，优化epoch数，train acc,test acc)
+  
+其它参考材料：
+    1. mobilenets论文：mobilenets_paper.pdf
+    2. week9作业参考答案：pycuda_conv_week9_homework.py
+    3. resnet网络搭建代码参考：resnet.py
+    4. pytorch实现alexnet,代码在文件夹week10_210902/alexnet下，实现细节可参考:http://www.imlarger.com:8081/dist/index.html#/Paper/267 如果此网址打开困难，可以看week10_210902/alexnet/训练一个alexnet.pdf
+
+    5. week10_dataset：:https://gitee.com/anjiang2020_admin/week10-dataset
+```
