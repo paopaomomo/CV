@@ -156,7 +156,7 @@ Pipeline:
     3. YOLO_V1论文：YOLO_V1.pdf 
     4. YOLO_V2论文：YOLO_V2.pdf 
     5. YOLO_V3论文：YOLO_V3.pdf 
-    6. [推荐]YOLO至YOLOv5通俗易懂文字教程
+    6. [推荐]YOLO至YOLOv5通俗易懂文字教程：https://zhuanlan.zhihu.com/p/183261974
     7. 2016CVPR会议上，作者的PPT:YOLO_CVPR_2016_ppt.pdf
     8. [重要，建议背诵]微调模型示例：Finetuning_convnet.py Finetuning_convnet.ipynb  
 
