@@ -130,3 +130,33 @@ Pipeline:
 
     5. week10_dataset：:https://gitee.com/anjiang2020_admin/week10-dataset
 ```
+
+- week11 [图像检测决策层设计总结与实战(一)]
+```
+[ https://gitee.com/anjiang2020_admin/ccv10 ]
+CV核心基础WEEK11：一阶段的图像检测模型的决策层设计总结与实战
+Pipeline:
+1  只用计算一次就能到得到检测框:YOLO 
+2  多尺度提取特征:YOLOV2
+
+
+作业：1 下载提供的week10-datasets-detect 数据集:https://gitee.com/anjiang2020_admin/week10-dataset
+     2 在分类模型的基础上，加上检测层，对week10-datasets进行回归检测
+     说明：
+       1. 自行完成检测层的设计。自行决定：检测头的检测区域个数，每个检测区域内输出框数，类别数。
+       2. 网络得backbone可以是你week10使用得网络，也可以与加载一些经典网络，也可以自行设计。
+       3. NMS得实现可参考ppt.代码可自己写，也可以从网站找，网上代码一般含有IoU.
+       
+要求：
+   1 提交作业时，需要提交代码，训练超参数（学习率策略，优化方法，优化epoch数，给出10张图片以及其对应检测结果。)
+  
+其它参考材料：
+    1. week11_210327/矿泉水瓶分类/bcnn_iccv15.pdf 
+    2. 矿泉水瓶分类.ipynb 
+    3. YOLO_V1论文：YOLO_V1.pdf 
+    4. YOLO_V2论文：YOLO_V2.pdf 
+    5. YOLO_V3论文：YOLO_V3.pdf 
+    6. 2016CVPR会议上，作者的PPT:YOLO_CVPR_2016_ppt.pdf
+    7. 微调模型示例：Finetuning_convnet.py Finetuning_convnet.ipynb  
+
+```
