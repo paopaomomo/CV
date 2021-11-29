@@ -161,3 +161,25 @@ Pipeline:
     8. [重要，建议背诵]微调模型示例：Finetuning_convnet.py Finetuning_convnet.ipynb  
 
 ```
+week12 [YOLO之前：图像检测决策层设计总结与实战(二)]
+```
+[ https://gitee.com/anjiang2020_admin/ccv10 ]
+CV核心基础WEEK12：YOLO之前：图像检测决策层设计总结与实战(二)
+Pipeline:
+1  如何评价检测器性能？ 
+2  深度学习初次用于检测：RCNN
+3  比CRNN快213倍：Fast RCNN
+4  真正得端到端：Faster RCNN 
+
+作业：
+     1. 计算week11所设计检测器的mAP，先把每个子类别得AP算出来，然后计算mAP。如果把所有水瓶算做一类，就算一个AP出来即可。
+     2. [faster rcnn学完之后选做]用region based得方法【rpn】,可能会更好  
+要求：
+   1. 提交作业时，需要与自己检测器相适配得mAP代码，以及总得mAP值，分类别得AP值。
+  
+其它参考材料：
+   1. mAP 代码可参考https://github.com/Cartucho/mAP 
+   2. week11作业参考中的pennfudan数据下载地址:https://www.cis.upenn.edu/~jshi/ped_html/
+   3. RCNN模型后续系列的发展，可以参考：https://zhuanlan.zhihu.com/p/368483790，比如这里有个：双头RCNN
+   
+```
