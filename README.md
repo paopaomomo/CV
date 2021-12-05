@@ -183,3 +183,34 @@ Pipeline:
    3. RCNN模型后续系列的发展，可以参考：https://zhuanlan.zhihu.com/p/368483790，比如这里有个：双头RCNN
    
 ```
+week13 [分割网络的设计]
+```
+[ https://gitee.com/anjiang2020_admin/ccv10 ]
+CV核心基础WEEK13：分割网络的设计
+Pipeline:
+1  分割器的设计思路
+2  经典分割模型的涨点方法
+ 
+
+作业：对老师提供的FCN代码填空，对图像进行分割
+FCN 参考步骤：
+     1. 编写网络结构文件week13_211205/homework/fcn.py
+          18行，补齐FCN32s网络各层得定义：
+          [可选] 52行，补齐FCN8s各层得定义
+          [可选] 71行，实现跳级结构
+
+       2. 待准备pennfudan数据集https://www.cis.upenn.edu/~jshi/ped_html/
+       所以，在一开始我们掌握模型原理阶段，需要一个小数据集
+       pennfudan是一个只有52M的小型数据集，我们就用它的验证网络的有效性。尽快掌握FCN
+       pennfudan数据下载地址:https://www.cis.upenn.edu/~jshi/ped_html/
+       ![输入图片说明](https://images.gitee.com/uploads/images/2020/0706/195021_9b419532_7401441.png "屏幕截图.png")
+       ![输入图片说明](https://images.gitee.com/uploads/images/2020/0706/200412_b841b066_7401441.png "屏幕截图.png")
+
+       3. 预先训练好得模型:week13_211205/homework/models/文件夹下
+
+选做作业: 参考FCN,deeplab等，设计一种检测器，对week10_dataset中的瓶子进行分割。
+建议步骤: 
+     1. week10_dataset标注，标注文件在https://gitee.com/anjiang2020_admin/week10-dataset
+     2. dataloader的编写
+     3. 按照Deeplab的思路，重新设计一个网络
+```
