@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotation>
+    <folder>NA</folder>
+    <filename>WechatIMG400.png</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>758</width>
+        <height>752</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>天府可乐</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <occluded>0</occluded>
+        <bndbox>
+            <xmin>238</xmin>
+            <ymin>143</ymin>
+            <xmax>393</xmax>
+            <ymax>732</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>天府可乐</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <occluded>0</occluded>
+        <bndbox>
+            <xmin>394</xmin>
+            <ymin>145</ymin>
+            <xmax>546</xmax>
+            <ymax>734</ymax>
+        </bndbox>
+    </object>
+</annotation>
