@@ -218,7 +218,7 @@ week14- [跟踪算法的设计]
 
 ```
 CV核心基础WEEK14 :  计算机视觉之跟踪算法的设计
-[ gitee:https://gitee.com/mingminglaoshi/ccv-20210410 ]
+[ https://gitee.com/anjiang2020_admin/ccv10 ]
 Pipeline:
 0.week13homework
 1.跟踪任务与检测任务的区别
