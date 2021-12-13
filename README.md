@@ -214,3 +214,27 @@ FCN 参考步骤：
      2. dataloader的编写
      3. 按照Deeplab的思路，重新设计一个网络
 ```
+week14- [跟踪算法的设计]
+
+```
+CV核心基础WEEK14 :  计算机视觉之跟踪算法的设计
+[ gitee:https://gitee.com/mingminglaoshi/ccv-20210410 ]
+Pipeline:
+0.week13homework
+1.跟踪任务与检测任务的区别
+2.用分类做跟踪
+3. MeanShift做跟踪
+4. 相关滤波方法做跟踪
+5. 深度学习做跟踪
+
+作业：
+   1 写一个tracker，跟踪水瓶（老师提供视频数据【已标注】：https://gitee.com/anjiang2020_admin/week10-dataset/blob/master/README.md#week14跟踪数据集）
+     选做：MOSSE方法或者learning to track 100FPS using DNN。
+   目的：掌握基于分类做跟踪的思路；掌握跟踪算法中，在线更新模型的的操作办法。
+   其它文件：
+        week13作业答案：week14/week13_homework_answer/answer/
+        yolo的另一种实现：week14/CV_homework_week12
+        week14/将相关滤波器跟踪算法的速度做到极致.pdf 
+   待跟踪视频：https://www.bilibili.com/video/BV1Y54y1273C/
+   ```
+   
